@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyActivityNotification">
         <activity
+            android:name=".Create_Tasks"
+            android:exported="false"
+            android:label="@string/title_activity_create_tasks" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
